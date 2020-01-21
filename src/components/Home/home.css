@@ -1,0 +1,33 @@
+.heading{
+  font-weight: lighter;
+  padding: 20px;
+}
+/* .left-container{
+  /* background-color: yellow; */
+
+  /* border-bottom: 1px solid grey; */
+ /* height: auto; */
+ /* margin-right: 10px;
+ height: 0px;
+} */
+
+.right-container{
+ background-color: #6442E0;
+    /* border: 2px solid grey; */
+ /* height: auto; */
+}
+.user{
+  font-weight: lighter;
+  padding: 20px;
+}
+.input-element{
+  padding: 10px;
+}
+.submit-button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn{
+  background-color: white;
+}
