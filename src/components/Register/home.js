@@ -22,7 +22,7 @@ class Home extends Component {
     <div className='container  '>
   <div className='row col justify-content-center'>
     <div className='shadow col-md-5 right-container'>
-    <h1 className='user text-center'  onClick={() => this.setState({ hospitalStatus: true  })}>Register as a Hospital</h1>
+    <h1 className='user text-center'  onClick={() => this.setState({ hospitalStatus: true  })}>Register a Hospital</h1>
     {this.state.hospitalStatus && <Hospital /> }
     </div>
 
