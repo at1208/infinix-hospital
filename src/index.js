@@ -5,7 +5,7 @@ import Auth from './components/Login/auth.js';
 
 //
 import Management from './components/Management/management';
-import Home from './components/Home/home'
+import Home from './components/Register/home'
 import Dashboard from './components/Dashboard/dashboard'
 
 

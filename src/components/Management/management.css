@@ -1,0 +1,23 @@
+.hospital-details{
+  margin: 10px;
+}
+.ant-btn-lg{
+
+    padding: 25px 40px 45px 50px !important;
+}
+.button{
+  background-color: #6442E0;
+  width: 200px;
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+/* @media (max-width: 550px) {
+  .button{
+    width: 200px;
+    margin: 10px;
+  }
+} */

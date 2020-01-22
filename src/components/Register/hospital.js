@@ -10,12 +10,10 @@ class Hospital extends Component {
        <div className='input-element'>
        <Input placeholder="Enter hospital Name" />
     </div>
+
     <div className='input-element'>
      <Input placeholder="Enter hospital email" />
   </div>
-  <div className='input-element'>
-   <Input placeholder="Enter hospital helpline number" />
-</div>
 
 <div className='input-element'>
  <Input placeholder="Enter password" type='password'/>

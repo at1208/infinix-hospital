@@ -7,3 +7,30 @@
   color: white;
   padding: 15px;
 }
+.location{
+  margin-top: 20px;
+}
+.location-button{
+  margin: 5px;
+ background-color: #6442E0;
+ color: white;
+}
+.box{
+ background-color: #6442E0;
+  height: 150px;
+ color: white;
+  margin: 10px;
+  font-size: 50px;
+}
+.size{
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+}
+.helpbox{
+ background-color: #6442E0;
+ color: white;
+  font-size: 20px;
+    height: 150px;
+    margin: 10px;
+}
