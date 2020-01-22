@@ -21,7 +21,7 @@ class Auth extends Component{
 
                 <Input  size="large" placeholder="Username"  style={{ marginTop: "10px"}} onChange={(e) => this.setState({ username: e.target.value})} value={this.state.username}/>
                  <Input size="large" placeholder="Password" type='password'  style={{ marginTop: "5px"}} onChange={(e) => this.setState({ password: e.target.value })}  value={this.state.password}/>
-                 <Link to='/dashboard'><Button className='a10 ' type=''>LOGIN</Button> </Link>
+                 <Link to='/'><Button className='a10 ' type=''>LOGIN</Button> </Link>
 
 
 

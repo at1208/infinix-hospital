@@ -20,7 +20,10 @@ class Hospital extends Component {
 </div>
 
 <div className='text-center submit-button'>
-<Link to='/auth'><Button className='btn btn-info'>Submit</Button></Link>
+<a to='/'><Button className='btn btn-info' onClick={() => {
+  window.location.reload()
+
+}}>Submit</Button></a>
 </div>
     </>
   }
