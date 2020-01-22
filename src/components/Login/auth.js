@@ -16,7 +16,7 @@ class Auth extends Component{
     return <div className='a1 text-center'>
 
       <div className='container col-md-4 shadow a2'>
-            <h1 className='a3'>.com</h1>
+            <h1 className='a3'>crashAlert</h1>
             <h4 className='a8 '>Please Login to continue</h4 >
 
                 <Input  size="large" placeholder="Username"  style={{ marginTop: "10px"}} onChange={(e) => this.setState({ username: e.target.value})} value={this.state.username}/>

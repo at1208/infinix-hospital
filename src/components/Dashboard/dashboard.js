@@ -70,14 +70,14 @@ class Dashboard  extends Component {
     }
   render(){
 
-    return <div>
+    return <div className='dash'>
      <Header />
      <div className='container'>
       <h1 className='text-center'>Dashboard</h1>
       <hr />
-      <div className='container'>
-        <div className='row col justify-content-center'>
-          <div className='col-md-6'>
+      <div className='container '>
+        <div className='row col justify-content-center '>
+          <div className='col-md-6 '>
 
           {this.state.GurgaonStatus &&
           <div className='container'>
@@ -327,7 +327,7 @@ class Dashboard  extends Component {
 
               </div>
             </div>
-            <div className='container'>
+            <div className='container locs'>
                {this.state.address && <h4 className='text-center'>Address</h4>}
                {this.state.GurgaonStatus && <div>{this.state.addressGurgaon}</div>}
 

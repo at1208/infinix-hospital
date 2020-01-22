@@ -48,7 +48,7 @@ class SideDrawer extends React.Component {
 
 
         </Drawer>
-        <span    style={{ marginLeft: "20px", fontSize:"26px"}}>.com</span>
+        <span    style={{ marginLeft: "20px", fontSize:"26px"}}>crashAlert</span>
       </div>
     );
   }

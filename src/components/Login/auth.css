@@ -1,9 +1,15 @@
 .a1{
 padding-top: 90px;
+height: 100vh;
+background: #757F9A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .a2{
   padding: 30px !important;
+  background-color: white;
 }
 
 .a3{
@@ -47,8 +53,8 @@ padding-bottom: 30px;
 } */
 .a10{
   width: 100%;
-  color: white !important;
- background-color: #6442E0 !important;
+  /* color: white !important; */
+ /* background-color: #6442E0 !important; */
   height: 40px;
   margin-top: 10px;
 
