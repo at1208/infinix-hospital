@@ -17,7 +17,7 @@ class Home extends Component {
   render(){
 
     return <div className='home text-center'>
-    <img src='https://www.logolynx.com/images/logolynx/85/856586486a2bba6f02e064757e495c9d.png' style={{ height: "20%", width: "20%"}}/>
+    <img src='https://www.logolynx.com/images/logolynx/85/856586486a2bba6f02e064757e495c9d.png' style={{ height: "20%", width: "20%", paddingTop: "20px"}}/>
     <h1 className='container text-center  heading'>Welcome to crashAlert</h1>
     <div className='container  '>
   <div className='row col justify-content-center'>
